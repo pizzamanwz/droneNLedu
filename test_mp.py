@@ -25,7 +25,7 @@ for i in range(500):
         print("New Command")
 
     if i == 499:
-        q.put([127, 127, 0, 127, 0])
+        q.put([127, 127, 0, 127, 2])
         print("Done")
 
     time.sleep(0.1)

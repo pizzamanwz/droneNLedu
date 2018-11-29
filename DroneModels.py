@@ -127,11 +127,11 @@ class CX10WD(object):
 
             print(droneCmd)
             self.udp_socket.send(droneCmd)
+            command_list.append(droneCmd)
             
             if droneCmd[5] == 2:
                 break
                 
-            command_list.append(droneCmd)
             time.sleep(0.01)
 
 

@@ -111,6 +111,13 @@ class CX10WD(object):
             if not control.empty():
                 command = control.get()
                 print(command)
+                # droneCmd[1] = bytes([int(command[0])])
+                # droneCmd[2] = bytes([int(command[1])])
+                # droneCmd[3] = bytes([int(command[2])])
+                # droneCmd[4] = bytes([int(command[3])])
+                # droneCmd[5] = bytes([int(command[4])])
+                # droneCmd[6] = checksum(droneCmd)
+
                 droneCmd[1] = int(command[0])
                 droneCmd[2] = int(command[1])
                 droneCmd[3] = int(command[2])
@@ -120,15 +127,9 @@ class CX10WD(object):
 
             print(droneCmd)
             self.udp_socket.send(droneCmd)
-            droneCmd[5] = 0x00
-            # print(droneCmd[0])
-            # print(droneCmd[1])
-            # print(droneCmd[2])
-            # print(droneCmd[3])
-            # print(droneCmd[4])
-            # print(droneCmd[5])
-            # print(droneCmd[6])
+            droneCmd[5] = 0x01
             command_list.append(droneCmd)
+            time.sleep(0.01)
 
 
     def HeartBeat(self):

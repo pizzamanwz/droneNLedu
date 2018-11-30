@@ -10,6 +10,17 @@ drone.connect()
 command_process.start()                       # Start the process
 print("Test process started...")
 
+
+# Python command: [r, p, t, y, m]
+# r = roll [0,255]
+# p = pitch [0, 255]
+# t = throttle [0, 255]
+# y = yaw [0,255]
+# m = flight mode:
+#       0 = Do nothing
+#       1 = TakeOff
+#       2 = Land
+
 for i in range(500):
 
     if i == 0:

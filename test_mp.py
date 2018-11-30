@@ -2,12 +2,12 @@ import multiprocessing as mp
 import DroneModels as dm
 import time
 
-q = mp.Queue()
-drone = dm.CX10WD()
+q = mp.Queue()          # Defines our Queue
+drone = dm.CX10WD()     # Drone object
 
-command_process = mp.Process(target=drone.PerformAction, args=(q,))
+command_process = mp.Process(target=drone.PerformAction, args=(q,))     # Control process Spawn
 drone.connect()
-command_process.start()
+command_process.start()                       # Start the process
 print("Test process started...")
 
 for i in range(500):
@@ -30,8 +30,6 @@ for i in range(500):
 
     time.sleep(0.1)
 
-
-
-command_process.join()
+command_process.join()          # Kill the process
 print("Test process ended, Disconnecting.")
 drone.disconnect()

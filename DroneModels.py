@@ -2,7 +2,6 @@ import socket
 import logging
 import threading
 import time
-import torch
 import numpy as np
 import multiprocessing as mp
 

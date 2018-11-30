@@ -127,7 +127,6 @@ class CX10WD(object):
 
             print(droneCmd)
             self.udp_socket.send(droneCmd)
-            droneCmd[5] = 0x01
             command_list.append(droneCmd)
 
             if droneCmd[5] == 2:

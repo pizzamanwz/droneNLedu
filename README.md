@@ -40,7 +40,7 @@ pip3 install opencv-python
 ```
 
 ## Downloading the Code
-To download this code, navigate to the upper right hand corner of this respository and press "download .ZIP" You may extract the .ZIP file into a folder of your choice. In the examples below we have extracted it to a folder within our Documents titled "Drone-Controls-master."
+To download this code, navigate to the upper right hand corner of this respository and press the green "Clone or Download" button, then "download .ZIP" You may extract the .ZIP file into a folder of your choice. In the examples below we have extracted it to a folder within our Documents titled "drone-code."
 
 ![Download Zip](https://github.com/JadinTredup/droneNLedu/blob/master/images/downloadzip.png "Download Zip")
 
@@ -57,9 +57,8 @@ cd \YOUR-PATH\
 ```
 If you do not know the path to the folder you can find it by navigating the folder and clicking in the address bar (seen below) to get the full path. You can copy it from here. For example, extracting the full repository into your Documents folder would have a resulting path similar to the following:
 ```
-cd C:\users\EGG101\Documents\Drone-Controls-master\Drone-Controls-master\Wifi-PyDrone
+cd C:\users\EGG101\Documents\drone-code\droneNLedu
 ```
-![Folder path](https://github.com/JadinTredup/Drone-Controls/blob/master/Wifi-PyDrone/Images/locate-directory.JPG "Folder Path")
 ### 3. Run the test code
 Once in the directory we can run the test program to verify that we have properly completed the prerequisites.
 

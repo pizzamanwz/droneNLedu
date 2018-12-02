@@ -17,17 +17,17 @@ This repository contains necessary functions to control a Cheerson CX-10WD over 
 ## Installation on Windows:
 ### Installing Python3:
 Navigate to the [Python Downloads Page for Windows](https://www.python.org/downloads/windows/) and select "Download Windows x86-64 executable installer" for Python 3.7.1. Run the Executable file making sure to check "Add Python3 to PATH" box at the bottom of the dialog box. Once the setup is finished you can move on to installing dependencies.
-![Python Path](https://github.com/JadinTredup/Drone-Controls/blob/master/Wifi-PyDrone/Images/python-path.JPG "Python Path")
+![Python Path](https://github.com/JadinTredup/droneNLedu/blob/master/images/python-path.JPG "Python Path")
 
 After installation has completed, the installer will ask for permission to disable your systems path length limit. This is to because windows has recently implemented a length limit for system path length. Allow Python to disable the path length limit by selecting the option shown below. 
-![Disable Path](https://github.com/JadinTredup/Drone-Controls/blob/master/Wifi-PyDrone/Images/python-disable-limit.JPG "Disable Path")
+![Disable Path](https://github.com/JadinTredup/droneNLedu/blob/master/images/python-disable-limit.JPG "Disable Path")
 
 ### Installing Dependencies:
 Most of the modules needed to run this code is either bundled with Python3 or are contained within this repository. The only necessary dependency we will need to install for ourselves is NumPy - a package for scientific computing within Python. Installing new packages in Python3 is very easy using the Pip3 command.
 
 Pip is the package management system built into Python which allows for easy command-line installation and removal of a variety of software packages. Pip is a recursive acronym meaning "Pip Installs Packages." Because we are using Python3 we will be using the Pip3 command to install our package. Open up a command-prompt by typing "cmd" into the start menu search bar
 
-![Command Prompt](https://github.com/JadinTredup/Drone-Controls/blob/master/Wifi-PyDrone/Images/command-prompt.JPG "Command Prompt")
+![Command Prompt](https://github.com/JadinTredup/droneNLedu/blob/master/images/command-prompt.JPG "Command Prompt")
 
 Once the command prompt is open enter the following command:
 ```

@@ -2,7 +2,7 @@
 
 This repository contains necessary functions to control a Cheerson CX-10WD over Wifi via a computer running Python 3.
 
-![Micro Drone](https://github.com/JadinTredup/Drone-Controls/blob/master/Wifi-PyDrone/Images/drone%20photo.jpg "Cheerson Micro Drone")
+![Micro Drone](https://github.com/JadinTredup/droneNLedu/blob/master/images/drone%20photo.jpg "Cheerson Micro Drone")
 
 ## Requirements:
 ### Hardware:

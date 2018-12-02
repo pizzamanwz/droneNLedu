@@ -40,7 +40,7 @@ pip3 install opencv-python
 ```
 
 ## Downloading the Code
-To download this code, navigate to the main page of this respository at [Drone Controls](https://github.com/JadinTredup/Drone-Controls) and press "download .ZIP" You may extract the .ZIP file into a folder of your choice. In the examples below we have extracted it to a folder within our Documents titled "Drone-Controls-master."
+To download this code, navigate to the upper right hand corner of this respository and press "download .ZIP" You may extract the .ZIP file into a folder of your choice. In the examples below we have extracted it to a folder within our Documents titled "Drone-Controls-master."
 
 ![Download Zip](https://github.com/JadinTredup/Drone-Controls/blob/master/Wifi-PyDrone/Images/download-repository.JPG "Download Zip")
 
@@ -67,6 +67,6 @@ Once in the directory we can run the test program to verify that we have properl
 
 From the command prompt, run the command:
 ```
-python testDrone.py
+python test_mp.py
 ```
 __NOTE: If you have another version of python already installed then you may need to replace "python" with "python3" or in some cases, even "py."__

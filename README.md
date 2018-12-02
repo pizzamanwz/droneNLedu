@@ -42,7 +42,7 @@ pip3 install opencv-python
 ## Downloading the Code
 To download this code, navigate to the upper right hand corner of this respository and press "download .ZIP" You may extract the .ZIP file into a folder of your choice. In the examples below we have extracted it to a folder within our Documents titled "Drone-Controls-master."
 
-![Download Zip](https://github.com/JadinTredup/Drone-Controls/blob/master/Wifi-PyDrone/Images/download-repository.JPG "Download Zip")
+![Download Zip](https://github.com/JadinTredup/droneNLedu/blob/master/images/downloadzip.png "Download Zip")
 
 ## Verifying the Installation:
 To verify the installation we will need to first connect to the Wifi network established by the CX10-WD-TX then run a test program from the host PC.
